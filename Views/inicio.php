@@ -219,13 +219,13 @@ headerTienda($data);
             <div class="col-md-6">
                 
                 <div class="descripcion">
-                     <ul>
+                    <ul>
                         <li><span>Servicio de enfermería las 24 horas</span></li>
                         <li><span>Servicio de medicina:<br> Evaluación semanalmente</span></li>
                         <li><span>Alimentación: <br> Desayuno, almuerzo y cena</span></li>
                         <li><span>Terapia</span></li>
                         <li><span>Lavanderia</span></li>
-                     </ul>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -287,6 +287,83 @@ headerTienda($data);
         <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, unde. Eligendi accusamus quam soluta deserunt quas voluptates, totam aliquid at, alias maxime mollitia. Vel quod, temporibus corrupti incidunt odit blanditiis.</p>
     </section>
 
+    <section class="staticData" id="pasosprevios">
+        <div class="espacio"></div>
+        <h2 class="text-success">GALERIA</h2>
+        <div class="line-skyblue"></div>
+        <div class="espacio"></div>
+    </section>
+
+    <body class="bg-light">
+        <div class="container">
+        <div class="row">
+                <div class="col-lg-6 mb-3">
+                    <a href="<?= media().'/tienda/imgs/001.jpg'; ?>" data-lightbox="mygallery" data-title="Caption Here">
+                    <img src="<?= media().'/tienda/imgs/001.jpg'; ?>" alt="" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-lg-6 mb-3">
+                    <a href="<?= media().'/tienda/imgs/002.jpg'; ?>" data-lightbox="mygallery" data-title="Caption Here">
+                    <img src="<?= media().'/tienda/imgs/002.jpg'; ?>" alt="" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-lg-8 mb-3">
+                    <a href="<?= media().'/tienda/imgs/003.jpg'; ?>" data-lightbox="mygallery" data-title="Caption Here">
+                    <img src="<?= media().'/tienda/imgs/003.jpg'; ?>" alt="" class="img-fluid">
+                    </a>
+                </div>
+            <div class="col-lg-4 mb-0">
+                <div class="col-lg-12 mb-3">
+                    <a href="<?= media().'/tienda/imgs/004.jpg'; ?>" data-lightbox="mygallery" data-title="Caption Here">
+                    <img src="<?= media().'/tienda/imgs/004.jpg'; ?>" alt="" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-lg-12 mb-3">
+                    <a href="<?= media().'/tienda/imgs/005.jpg'; ?>" data-lightbox="mygallery" data-title="Caption Here">
+                    <img src="<?= media().'/tienda/imgs/005.jpg'; ?>" alt="" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-6 mb-3">
+                    <a href="<?= media().'/tienda/imgs/006.jpg'; ?>" data-lightbox="mygallery" data-title="Caption Here">
+                    <img src="<?= media().'/tienda/imgs/006.jpg'; ?>" alt="" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-lg-6 mb-3">
+                    <a href="<?= media().'/tienda/imgs/007.jpg'; ?>" data-lightbox="mygallery" data-title="Caption Here">
+                    <img src="<?= media().'/tienda/imgs/007.jpg'; ?>" alt="" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-lg-4 mb-0">
+                <div class="col-lg-12 mb-3">
+                    <a href="<?= media().'/tienda/imgs/008.jpg'; ?>" data-lightbox="mygallery" data-title="Caption Here">
+                    <img src="<?= media().'/tienda/imgs/008.jpg'; ?>" alt="" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-lg-12 mb-3">
+                    <a href="<?= media().'/tienda/imgs/009.jpg'; ?>" data-lightbox="mygallery" data-title="Caption Here">
+                    <img src="<?= media().'/tienda/imgs/009.jpg'; ?>" alt="" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-8 mb-3">
+                    <a href="<?= media().'/tienda/imgs/010.jpg'; ?>" data-lightbox="mygallery" data-title="Caption Here">
+                    <img src="<?= media().'/tienda/imgs/010.jpg'; ?>" alt="" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-lg-6 mb-3">
+                    <a href="<?= media().'/tienda/imgs/011.jpg'; ?>" data-lightbox="mygallery" data-title="Caption Here">
+                    <img src="<?= media().'/tienda/imgs/011.jpg'; ?>" alt="" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-lg-6 mb-3">
+                    <a href="<?= media().'/tienda/imgs/012.jpg'; ?>" data-lightbox="mygallery" data-title="Caption Here">
+                    <img src="<?= media().'/tienda/imgs/012.jpg'; ?>" alt="" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </body>
 
     <!-- ************************************************************** -->
     <!-- ************************* /Proceso de ingreso ************************* -->
