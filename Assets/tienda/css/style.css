@@ -916,9 +916,9 @@ section.banner {
     ul li {
         padding-left: 24px;
     }
-    li.active {
+   /*  li.active {
         background: black;
-    }
+    } */
     .bi-list::before {
         content: "\f479";
         color: white;
@@ -1208,3 +1208,30 @@ div#showVideo {
     justify-content: center;
     /* height: 500px; */
 }
+
+@media only screen and (max-width: 769px) {
+    img.d-block.w-100 {
+        height: auto !important;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+
+    img.d-block.w-100 {
+        height: 268px !important;
+    }
+    .video-background {
+        width: 100%;
+    }
+    div#showVideo {
+        width: 100% !important;
+        padding: 0;
+        margin: 0 !important;
+        margin-top: 0px !important;
+        margin-right: 0px !important;
+        margin-bottom: 0px !important;
+        margin-left: 0px !important;
+    }
+    .col-md-6.imagenEst img {
+        width: 100%;
+    }
+  }

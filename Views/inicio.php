@@ -192,7 +192,7 @@ headerTienda($data);
                     <p>Convertirnos en una institución reconocida por ofrecer el mejor cuidado de nuestros residentes. Ser una empresa líder en el sector de la asistencia a la tercera edad.</p>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 imagenEst">
                 <img src="<?= media().'/tienda/img/residencias.png'; ?>" alt="">
             </div>
         </div>
@@ -213,7 +213,7 @@ headerTienda($data);
     <div class="clearfix"></div>
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 imagenEst">
                 <img src="<?= media().'/tienda/img/servicios.png'; ?>" alt="">
             </div>
             <div class="col-md-6">
@@ -221,8 +221,8 @@ headerTienda($data);
                 <div class="descripcion">
                     <ul>
                         <li><span>Servicio de enfermería las 24 horas</span></li>
-                        <li><span>Servicio de medicina:<br> Evaluación semanalmente</span></li>
-                        <li><span>Alimentación: <br> Desayuno, almuerzo y cena</span></li>
+                        <li><span>Servicio de medicina:<br> Evaluación Semanal</span></li>
+                        <li><span>Alimentación: (Desayuno, almuerzo y cena)</span></li>
                         <li><span>Terapia</span></li>
                         <li><span>Lavanderia</span></li>
                     </ul>
@@ -284,7 +284,9 @@ headerTienda($data);
         <div class="line-skyblue"></div>
         <div class="espacio"></div>
         <!-- /titulo -->
-        <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa, unde. Eligendi accusamus quam soluta deserunt quas voluptates, totam aliquid at, alias maxime mollitia. Vel quod, temporibus corrupti incidunt odit blanditiis.</p>
+        <p class="text-center">Usted puede elegir la habitación idónea.</p>
+        <p class="text-center">Un médico especialista evaluara al adulto mayor para verificar el estado actual del paciente.</p>
+        <p class="text-center">Luego del dictamen del medico especialista, se procede a programar la fecha de inserción del paciente.</p>
     </section>
 
     <section class="staticData" id="pasosprevios">
