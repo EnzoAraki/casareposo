@@ -93,7 +93,7 @@ headerTienda($data);
 	<section class="staticData">
 
     <div class="espacio"></div>
-    <h2 class="text-plomo">BIENVENIDOS A CASA REPOSO SURCO</h2>
+    <h2 class="text-plomo">BIENVENIDOS A HOGAR DE MAMINA</h2>
     <div class="line-skyblue"></div>
     <div class="espacio"></div>
     <div class="clearfix"></div>
@@ -105,11 +105,11 @@ headerTienda($data);
                     </div>
                 </div>
             </div>
-            <div class="espacio"></div>
-            <div class="espacio"></div>
+            <!-- <div class="espacio"></div>
+            <div class="espacio"></div> -->
     </section>
 
-        <section class="reviews">
+        <section class="reviews" hidden="">
             <div class="title">
                 <div class="espacio"></div>
                 <h3 class="title2">TESTIMONIOS</h3>
@@ -185,11 +185,11 @@ headerTienda($data);
         <div class="row">
             <div class="col-md-6">
                 <div class="descripcion">
-                    <p>Somos Casa de Reposo SURCO, un lugar cálido y acogedor en el distrito de Surco. Nuestro objetivo es brindar un ambiente seguro y relajado para nuestros residentes. Ofrecemos una amplia variedad de comodidades, como sala, comedor, cocina, dormitorios, baños, jardín, biblioteca y un hermoso parque bien grande. Tenemos a su disposición enfermeros profesionales que se preocupan por el bienestar de nuestros residentes. Nuestra prioridad es ofrecer un entorno seguro y tranquilo para que nuestros residentes disfruten de la mejor calidad de vida.</p>
+                    <p>El hogar de Mamina, está ubicado en el distrito de Santiago de Surco, Jiron Ismael 761, frente al parque Loma Amarilla.</p>
                     <h3>Misión:</h3>
                     <p> Brindar un entorno seguro, relajado y acogedor para nuestros residentes, promoviendo el bienestar y el desarrollo integral.</p>
                     <h3>Visión:</h3>
-                    <p>Convertirnos en una institución reconocida por ofrecer el mejor cuidado de nuestros residentes. Ser una empresa líder en el sector de la asistencia a la tercera edad.</p>
+                    <p>Convertirnos en un hogar para nuestros huéspedes con mucho amor y dedicación.</p>
                 </div>
             </div>
             <div class="col-md-6 imagenEst">
@@ -220,11 +220,17 @@ headerTienda($data);
                 
                 <div class="descripcion">
                     <ul>
-                        <li><span>Servicio de enfermería las 24 horas</span></li>
-                        <li><span>Servicio de medicina:<br> Evaluación Semanal</span></li>
-                        <li><span>Alimentación: (Desayuno, almuerzo y cena)</span></li>
-                        <li><span>Terapia</span></li>
-                        <li><span>Lavanderia</span></li>
+                        <li><span>Servicio de enfermería 24 Hrs.</span></li>
+                        <li><span>Evaluación médica geriátrica semanal.</span></li>
+                        <li><span>Evaluación psicológica.</span></li>
+                        <li><span>Evaluación odontológica.</span></li>
+                        <li><span>Pedicure y manicure.</span></li>
+                        <li><span>Corte de cabello mensual.</span></li>
+                        <li><span>Terapia física.</span></li>
+                        <li><span>Alimentación completa y balanceada, evaluado por nutricionistas.</span></li>
+                        <li><span>Recreación, paseos y juegos didácticos.</span></li>
+                        <li><span>Sala de lectura.</span></li>
+                        <li><span>Lavandería, Agregar las imágenes de la sale de lectura, donde se ve el monitor.</span></li>
                     </ul>
                 </div>
             </div>

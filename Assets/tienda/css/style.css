@@ -1232,6 +1232,6 @@ div#showVideo {
         margin-left: 0px !important;
     }
     .col-md-6.imagenEst img {
-        width: 100%;
+        width: 100% !important;
     }
   }
